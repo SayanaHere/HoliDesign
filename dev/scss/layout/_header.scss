@@ -3,9 +3,9 @@
 ============= */
 
 header {
-    background-color: $pink;
+    
     left: 0;
-    position: fixed;
+    //position: fixed;
     top: 0;
     width: 100%;
     color: white;
@@ -33,6 +33,7 @@ header {
             grid-area: burger;
             justify-content: flex-end;
             padding: 13px;
+            color: black;
 
             @include lg {
                 display: none !important;

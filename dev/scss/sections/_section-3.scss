@@ -3,5 +3,27 @@
 ============= */
 
 
- 
+#section-3{
+    background-image: url('../img/section-3/picture3.png');
+       background-size: cover;
+       background-position: center;
+       height: 169px;
+       color: $blue;
+       
+       display: grid; 
+       grid-template-columns: 15% auto 15%;
+       grid-template-areas: ". text .";
+       #text{
+           grid-area: text;
+           text-align: justify;
+       }
+       
+    //    #button{
+    //     background-image: url('../img/section-3/picture4.svg');
+    //     background-size: cover;
+    //     background-position: center;
+    //     height: 84px;
+    //    }
+
+}
 
