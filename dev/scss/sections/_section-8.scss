@@ -1,0 +1,25 @@
+/* =============
+    Section 8
+============= */
+
+#section-8{
+
+    background-image: url('../img/section-8/picture11.png');
+       background-size: cover;
+       background-position: center;
+       height: 90px;
+       padding-top: 100px;
+       color: $lightblue;
+
+       display: grid; 
+       grid-template-columns: 15% auto 15%;
+       grid-template-areas: ". text .";
+       #text{
+        grid-area: text;
+        text-align: center;
+       }
+    
+       
+       
+}
+
