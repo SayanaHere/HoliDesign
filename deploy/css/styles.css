@@ -639,6 +639,7 @@ footer {
   height: 90px;
   padding-top: 100px;
   color: #0E6079;
+  padding-bottom: 100px;
   display: grid;
   grid-template-columns: 15% auto 15%;
   grid-template-areas: ". text ."; }
@@ -650,9 +651,9 @@ footer {
     Section 9
 ============= */
 #section-9 {
-  padding-top: 100px;
+  padding-top: 5px;
   background-image: url("../img/section-9/subscribe.svg");
   background-size: cover;
   background-position: center;
-  height: 100px;
-  padding-bottom: 100px; }
+  height: 2px;
+  padding-bottom: 90px; }
