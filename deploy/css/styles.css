@@ -449,12 +449,8 @@ header {
     Footer
 ============= */
 footer {
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". footer .";
-  background-color: #EF2283;
   width: 100%;
-  height: 60px; }
+  height: 30px; }
   footer #footer-content {
     grid-area: footer;
     display: grid;
@@ -462,8 +458,8 @@ footer {
     grid-template-areas: ". img . text";
     position: relative; }
     footer #footer-content #footer-image {
-      background-image: url("../img/footer/logo.png");
-      background-position: 50% 50%;
+      background-image: url("../img/footer/footer.png");
+      background-position: center;
       background-repeat: no-repeat;
       grid-area: img; }
     footer #footer-content #footer-text {
@@ -561,7 +557,7 @@ footer {
   display: grid;
   grid-template-columns: 10% auto 10%;
   grid-template-areas: ". gallery .";
-  padding-top: 200px; }
+  padding-top: 10px; }
   #section-5 > div {
     grid-area: gallery;
     text-align: center; }
@@ -627,7 +623,7 @@ footer {
   background-size: cover;
   background-position: center;
   height: 100px;
-  padding-bottom: 100px; }
+  padding-bottom: 90px; }
 
 /* =============
     Section 8
@@ -651,9 +647,6 @@ footer {
     Section 9
 ============= */
 #section-9 {
-  padding-top: 5px;
-  background-image: url("../img/section-9/subscribe.svg");
-  background-size: cover;
-  background-position: center;
-  height: 2px;
-  padding-bottom: 90px; }
+  padding-top: 50px;
+  height: 15px;
+  padding-bottom: 150px; }
