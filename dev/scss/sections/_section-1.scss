@@ -3,12 +3,12 @@
 ============= */
 
 #section-1{
-    background-image: url('../img/section-1/picture1.png');
+    background-image: url('../img/section-1/picture1.svg');
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
        height: 420px;
-color: white;
+       color: white;
        @include md{
            height: 600px;
        }

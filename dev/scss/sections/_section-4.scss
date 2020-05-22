@@ -4,7 +4,6 @@
 
 #section-4{
 
-    padding-top: 300px;
     display: grid;
     grid-template-rows: 100px auto;
     grid-template-areas: "button" 
@@ -15,6 +14,10 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 84px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+
     }
     #picture{
         grid-area: picture;
@@ -22,5 +25,9 @@
         background-size: cover;
         background-position: center;
         height: 158px;
+        padding-top: 70px;
+        padding-bottom: 5px;
+
+
     }
 }

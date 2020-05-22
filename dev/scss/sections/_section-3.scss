@@ -10,6 +10,9 @@
        height: 169px;
        color: $blue;
        padding-top: 100px;
+       cursor: pointer;
+       padding-bottom: 100px;
+
        
        display: grid; 
        grid-template-columns: 15% auto 15%;
@@ -17,6 +20,8 @@
        #text{
            grid-area: text;
            text-align: justify;
+           cursor: pointer;
+
        }
        
     //    #button{

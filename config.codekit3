@@ -30,16 +30,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/footer/footer.png": {
-		"ft": 32768,
-		"iS": 1282,
-		"oA": 0,
-		"oAP": "/deploy/img/footer/footer.png",
+	"/deploy/img/footer/footer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/footer/footer.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/footer/instagram.png": {
 		"ft": 32768,
@@ -85,27 +84,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-1/picture1.jpg": {
-		"ft": 16384,
-		"iS": 634432,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/picture1.jpg",
+	"/deploy/img/section-1/picture1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-1/picture1.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-1/picture1.png": {
-		"ft": 32768,
-		"iS": 1482269,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/picture1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/section-2/picture2.svg": {
 		"ft": 2097152,

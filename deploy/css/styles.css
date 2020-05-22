@@ -449,6 +449,7 @@ header {
     Footer
 ============= */
 footer {
+  text-align: center;
   width: 100%;
   height: 30px; }
   footer #footer-content {
@@ -458,7 +459,7 @@ footer {
     grid-template-areas: ". img . text";
     position: relative; }
     footer #footer-content #footer-image {
-      background-image: url("../img/footer/footer.png");
+      background-image: url("../img/footer/footer.svg");
       background-position: center;
       background-repeat: no-repeat;
       grid-area: img; }
@@ -470,12 +471,21 @@ footer {
       position: absolute;
       bottom: 0;
       right: 0; }
+  footer ul {
+    display: flex;
+    justify-content: center; }
+    footer ul li {
+      margin: 0 10px; }
+      footer ul li a:link, footer ul li a:visited {
+        color: #000;
+        transition: 0.25s;
+        font-size: 1.875rem; }
 
 /* =============
     Section 1
 ============= */
 #section-1 {
-  background-image: url("../img/section-1/picture1.png");
+  background-image: url("../img/section-1/picture1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -510,7 +520,8 @@ footer {
   background-size: cover;
   background-position: center;
   height: 169px;
-  color: white; }
+  color: white;
+  padding-top: 90px; }
 
 /* =============
     Section 3
@@ -522,18 +533,20 @@ footer {
   height: 169px;
   color: #196892;
   padding-top: 100px;
+  cursor: pointer;
+  padding-bottom: 100px;
   display: grid;
   grid-template-columns: 15% auto 15%;
   grid-template-areas: ". text ."; }
   #section-3 #text {
     grid-area: text;
-    text-align: justify; }
+    text-align: justify;
+    cursor: pointer; }
 
 /* =============
     Section 4
 ============= */
 #section-4 {
-  padding-top: 300px;
   display: grid;
   grid-template-rows: 100px auto;
   grid-template-areas: "button"  "picture"; }
@@ -542,13 +555,17 @@ footer {
     background-image: url("../img/section-4/picture4.svg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 84px; }
+    height: 84px;
+    padding-top: 10px;
+    padding-bottom: 5px; }
   #section-4 #picture {
     grid-area: picture;
     background-image: url("../img/section-4/picture5.png");
     background-size: cover;
     background-position: center;
-    height: 158px; }
+    height: 158px;
+    padding-top: 70px;
+    padding-bottom: 5px; }
 
 /* =============
     Section 5
@@ -613,7 +630,8 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   height: 170px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  padding-top: 200px; }
 
 /* =============
     Section 7
@@ -623,7 +641,8 @@ footer {
   background-size: cover;
   background-position: center;
   height: 100px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  padding-top: 90px; }
 
 /* =============
     Section 8
@@ -635,7 +654,7 @@ footer {
   height: 90px;
   padding-top: 100px;
   color: #0E6079;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 15% auto 15%;
   grid-template-areas: ". text ."; }
