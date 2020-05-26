@@ -5,7 +5,7 @@
 header {
     
     left: 0;
-    //position: fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     color: white;
@@ -18,7 +18,7 @@ header {
         grid-template-columns: 80% auto;
 
         @include lg {
-            grid-template-areas: "logo nav";
+            grid-template-areas: "logo navi";
             grid-template-columns: 20% auto;
         }
 

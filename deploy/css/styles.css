@@ -410,6 +410,7 @@ textarea {
 ============= */
 header {
   left: 0;
+  position: fixed;
   top: 0;
   width: 100%;
   color: white; }
@@ -419,7 +420,7 @@ header {
     grid-template-columns: 80% auto; }
     @media (min-width: 992px) {
       header > div {
-        grid-template-areas: "logo nav";
+        grid-template-areas: "logo navi";
         grid-template-columns: 20% auto; } }
     header > div #logo-container {
       grid-area: logo;
@@ -450,36 +451,14 @@ header {
 ============= */
 footer {
   text-align: center;
-  width: 100%;
-  height: 30px; }
-  footer #footer-content {
-    grid-area: footer;
-    display: grid;
-    grid-template-columns: 42% 16% 33% 10%;
-    grid-template-areas: ". img . text";
-    position: relative; }
-    footer #footer-content #footer-image {
-      background-image: url("../img/footer/footer.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      grid-area: img; }
-    footer #footer-content #footer-text {
-      grid-area: text;
-      color: white;
-      font-size: 0.8125rem;
-      text-align: right;
-      position: absolute;
-      bottom: 0;
-      right: 0; }
+  background-image: url("../img/footer/footer.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0; }
   footer ul {
     display: flex;
     justify-content: center; }
-    footer ul li {
-      margin: 0 10px; }
-      footer ul li a:link, footer ul li a:visited {
-        color: #000;
-        transition: 0.25s;
-        font-size: 1.875rem; }
 
 /* =============
     Section 1
