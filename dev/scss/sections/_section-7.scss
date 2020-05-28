@@ -4,15 +4,25 @@
 
 #section-7{
 
-    background-image: url('../img/section-7/picture10.png');
-       background-size: cover;
-       background-position: center;
-       height: 100px;
-       padding-bottom: 90px;
+    background-color: $white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". video .";
+    padding-top: 10px;
 
-       padding-top: 90px;
-      
-       
+    >div{
+        grid-area:  video;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+
+        section{
+            width: 150%;
+        }
+        
+    }
        
 }
 

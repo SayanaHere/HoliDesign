@@ -398,13 +398,37 @@ textarea {
       text-decoration: none;
       transition: 0.25s; }
     #nav-container ul li a:hover {
-      color: #EF2283; }
+      color: #f595c2; }
       @media (min-width: 992px) {
         #nav-container ul li a:hover {
           color: lightblue; } }
     #nav-container ul li a:active {
       color: white; }
 
+/* ===================
+    Video Player
+=================== */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  /* 4:6 */
+  padding-top: 25px;
+  height: 0; }
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.widescreen {
+  padding-bottom: 56.25%;
+  /* 16:9 */ }
+
+/* ===================
+    End Video Player
+=================== */
 /* =============
     Header
 ============= */
@@ -444,7 +468,7 @@ header {
       padding: 13px; }
       @media (min-width: 992px) {
         header > div #nav-container {
-          background-color: #EF2283;
+          background-color: #f595c2;
           display: block !important; } }
 /* =============
     Footer
@@ -616,12 +640,19 @@ footer {
     Section 7
 ============= */
 #section-7 {
-  background-image: url("../img/section-7/picture10.png");
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-  padding-bottom: 90px;
-  padding-top: 90px; }
+  background-color: #fff;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  grid-template-areas: ". video .";
+  padding-top: 10px; }
+  #section-7 > div {
+    grid-area: video;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #section-7 > div section {
+      width: 150%; }
 
 /* =============
     Section 8
