@@ -6,6 +6,7 @@
     ul {
         height: 100%;
         text-align: right;
+        color: $pink;
 
         @include lg {
             display: flex;

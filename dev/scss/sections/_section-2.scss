@@ -6,9 +6,14 @@
     background-image: url('../img/section-2/picture2.svg');
        background-size: cover;
        background-position: center;
-       height: 169px;
+       height: 100px; 
        color: white;
        padding-top: 90px;
-
+    @include md {
+        height: 270px;
+    }
+    @include lg {
+        height: 400px;
+    }
 
 }

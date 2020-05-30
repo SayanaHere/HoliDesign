@@ -24,8 +24,10 @@
          h1{
              font-size: 80px;
              text-align: center;
+
              @include lg{
                  font-size: 200px;
+
              }
          }
          h3{

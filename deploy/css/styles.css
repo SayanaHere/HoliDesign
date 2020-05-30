@@ -380,7 +380,8 @@ textarea {
 ============= */
 #nav-container ul {
   height: 100%;
-  text-align: right; }
+  text-align: right;
+  color: #f595c2; }
   @media (min-width: 992px) {
     #nav-container ul {
       display: flex;
@@ -437,7 +438,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  color: white; }
+  color: red; }
   header > div {
     display: grid;
     grid-template-areas: "logo burger" "navi navi";
@@ -522,10 +523,15 @@ footer {
   background-image: url("../img/section-2/picture2.svg");
   background-size: cover;
   background-position: center;
-  height: 169px;
+  height: 100px;
   color: white;
   padding-top: 90px; }
-
+  @media (min-width: 768px) {
+    #section-2 {
+      height: 270px; } }
+  @media (min-width: 992px) {
+    #section-2 {
+      height: 400px; } }
 /* =============
     Section 3
 ============= */
