@@ -30,13 +30,11 @@
             }
 
             a:hover {
-                color: $pink;
-                @include lg{
-                    color: lightblue;
-                }
+                color: $lightblue;
+                
             }
             a:active {
-                color: white;
+                color: $white;
             }
         }
     }

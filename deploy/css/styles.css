@@ -399,12 +399,9 @@ textarea {
       text-decoration: none;
       transition: 0.25s; }
     #nav-container ul li a:hover {
-      color: #f595c2; }
-      @media (min-width: 992px) {
-        #nav-container ul li a:hover {
-          color: lightblue; } }
+      color: #0E6079; }
     #nav-container ul li a:active {
-      color: white; }
+      color: #fff; }
 
 /* ===================
     Video Player
@@ -434,39 +431,43 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #f595c2;
   left: 0;
   position: fixed;
   top: 0;
   width: 100%;
-  color: red; }
+  z-index: 1000; }
   header > div {
     display: grid;
-    grid-template-areas: "logo burger" "navi navi";
+    grid-template-areas: "logo burger" "nav nav";
     grid-template-columns: 80% auto; }
     @media (min-width: 992px) {
       header > div {
-        grid-template-areas: "logo navi";
+        grid-template-areas: "logo nav";
         grid-template-columns: 20% auto; } }
     header > div #logo-container {
       grid-area: logo;
-      padding: 5px 20px; }
+      padding: 10px 15px; }
+      header > div #logo-container img {
+        width: 40px; }
     header > div #burger-container {
       align-items: center;
+      color: #fff;
       display: flex;
+      font-size: 1.5625rem;
       grid-area: burger;
       justify-content: flex-end;
-      padding: 13px;
-      color: black; }
+      padding: 10px 15px; }
       @media (min-width: 992px) {
         header > div #burger-container {
           display: none !important; } }
       header > div #burger-container i {
         cursor: pointer; }
     header > div #nav-container {
-      background-color: #fff;
+      background-color: #f595c2;
       display: none;
-      grid-area: navi;
-      padding: 13px; }
+      grid-area: nav;
+      padding: 10px 15px; }
       @media (min-width: 992px) {
         header > div #nav-container {
           background-color: #f595c2;
@@ -493,8 +494,11 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 420px;
-  color: white; }
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  justify-content: center; }
   @media (min-width: 768px) {
     #section-1 {
       height: 600px; } }
@@ -505,17 +509,11 @@ footer {
     #section-1 {
       height: 1000px; } }
   #section-1 h1 {
-    font-size: 80px;
-    text-align: center; }
-    @media (min-width: 992px) {
-      #section-1 h1 {
-        font-size: 200px; } }
+    font-size: 7.5rem; }
   #section-1 h3 {
-    font-size: 30px;
-    text-align: center; }
-    @media (min-width: 992px) {
-      #section-1 h3 {
-        font-size: 90px; } }
+    font-size: 3.75rem;
+    font-weight: 400; }
+
 /* =============
     Section 2
 ============= */
@@ -589,9 +587,9 @@ footer {
     text-align: center; }
     #section-5 > div ul {
       display: grid;
-      grid-template-rows: repeat(5, 53px);
+      grid-template-rows: repeat(4, 53px);
       grid-template-columns: repeat(4, 75px);
-      grid-template-areas: "bigpicture bigpicture bigpicture bigpicture" "bigpicture bigpicture bigpicture bigpicture" "bigpicture bigpicture bigpicture bigpicture" "bigpicture bigpicture bigpicture bigpicture" "gallery1 gallery2 gallery3 gallery4";
+      grid-template-areas: "bigpicture bigpicture bigpicture bigpicture" "bigpicture bigpicture bigpicture bigpicture" "bigpicture bigpicture bigpicture bigpicture" "gallery1 gallery2 gallery3 gallery4";
       gap: 20px; }
       #section-5 > div ul #bigpicture {
         grid-area: bigpicture;

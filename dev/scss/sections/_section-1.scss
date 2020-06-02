@@ -7,8 +7,13 @@
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
-       height: 420px;
+       align-items: center;
+
+       height: 100vh;
        color: white;
+       
+       text-align: center;
+       justify-content: center;
        @include md{
            height: 600px;
        }
@@ -22,20 +27,15 @@
          }
 
          h1{
-             font-size: 80px;
-             text-align: center;
-
-             @include lg{
-                 font-size: 200px;
-
-             }
+            font-size: rem-calc(120);
+            
+             
          }
          h3{
-            font-size: 30px;
-            text-align: center;
-            @include lg{
-                font-size: 90px;
-            }
+            font-size: rem-calc(60);
+            font-weight: 400;
+            
+
         }
 
 }

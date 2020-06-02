@@ -3,37 +3,41 @@
 ============= */
 
 header {
-    
+    background-color: $pink;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    color: red;
+    z-index: 1000;
 
     >div {
         display: grid;
-        grid-template-areas: 
-            "logo burger"
-            "navi navi";
+        grid-template-areas: "logo burger"
+            "nav nav";
         grid-template-columns: 80% auto;
 
         @include lg {
-            grid-template-areas: "logo navi";
+            grid-template-areas: "logo nav";
             grid-template-columns: 20% auto;
         }
 
         #logo-container {
             grid-area: logo;
-            padding: 5px 20px;
+            padding: 10px 15px;
+
+            img {
+                width: 40px;
+            }
         }
 
         #burger-container {
             align-items: center;
+            color: $white;
             display: flex;
+            font-size: rem-calc(25);
             grid-area: burger;
             justify-content: flex-end;
-            padding: 13px;
-            color: black;
+            padding: 10px 15px;
 
             @include lg {
                 display: none !important;
@@ -45,10 +49,10 @@ header {
         }
 
         #nav-container {
-            background-color: $white;
+            background-color: $pink;
             display: none;
-            grid-area: navi;
-            padding: 13px;
+            grid-area: nav;
+            padding: 10px 15px;
 
             @include lg {
                 background-color: $pink;
