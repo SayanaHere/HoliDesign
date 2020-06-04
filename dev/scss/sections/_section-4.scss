@@ -14,8 +14,9 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 84px;
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 5px;
+        cursor: pointer;
 
 
     }
@@ -27,6 +28,12 @@
         height: 158px;
         padding-top: 70px;
         padding-bottom: 5px;
+        @include md {
+            height: 383px;
+        }
+        @include lg {
+            height: 500px;
+        }
 
 
     }

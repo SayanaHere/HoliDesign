@@ -2,41 +2,30 @@
     Section 1
 ============= */
 
-#section-1{
-    background-image: url('../img/section-1/picture1.svg');
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       align-items: center;
+#section-1 {
+    align-items: center;
+    background-image: url("../img/section-1/picture1.svg");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 
-       height: 100vh;
-       color: white;
-       
-       text-align: center;
-       justify-content: center;
-       @include md{
-           height: 600px;
-       }
+    
+      
+    div {
+        color: $white;
+        text-align: center;
 
-       @include lg{
-            height: 700px;
+        h1 {
+            font-family: 'Berkshire Swash', cursive;
+            font-size: rem-calc(120);
         }
 
-        @include xl{
-            height: 1000px;
-         }
-
-         h1{
-            font-size: rem-calc(120);
-            
-             
-         }
-         h3{
+        h3 {
+            font-family: 'Cookie', cursive;
             font-size: rem-calc(60);
             font-weight: 400;
-            
-
         }
-
+    }
 }
 

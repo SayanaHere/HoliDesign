@@ -447,7 +447,8 @@ header {
         grid-template-columns: 20% auto; } }
     header > div #logo-container {
       grid-area: logo;
-      padding: 10px 15px; }
+      padding: 10px 15px;
+      cursor: pointer; }
       header > div #logo-container img {
         width: 40px; }
     header > div #burger-container {
@@ -477,6 +478,7 @@ header {
 ============= */
 footer {
   text-align: center;
+  color: #fff;
   background-image: url("../img/footer/footer.svg");
   background-size: cover;
   background-position: center;
@@ -490,29 +492,22 @@ footer {
     Section 1
 ============= */
 #section-1 {
+  align-items: center;
   background-image: url("../img/section-1/picture1.svg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
+  display: flex;
   height: 100vh;
-  color: white;
-  text-align: center;
   justify-content: center; }
-  @media (min-width: 768px) {
-    #section-1 {
-      height: 600px; } }
-  @media (min-width: 992px) {
-    #section-1 {
-      height: 700px; } }
-  @media (min-width: 1200px) {
-    #section-1 {
-      height: 1000px; } }
-  #section-1 h1 {
-    font-size: 7.5rem; }
-  #section-1 h3 {
-    font-size: 3.75rem;
-    font-weight: 400; }
+  #section-1 div {
+    color: #fff;
+    text-align: center; }
+    #section-1 div h1 {
+      font-family: 'Berkshire Swash', cursive;
+      font-size: 7.5rem; }
+    #section-1 div h3 {
+      font-family: 'Cookie', cursive;
+      font-size: 3.75rem;
+      font-weight: 400; }
 
 /* =============
     Section 2
@@ -523,7 +518,7 @@ footer {
   background-position: center;
   height: 100px;
   color: white;
-  padding-top: 90px; }
+  padding-top: 80px; }
   @media (min-width: 768px) {
     #section-2 {
       height: 270px; } }
@@ -540,16 +535,19 @@ footer {
   height: 169px;
   color: #196892;
   padding-top: 100px;
-  cursor: pointer;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   display: grid;
   grid-template-columns: 15% auto 15%;
   grid-template-areas: ". text ."; }
   #section-3 #text {
     grid-area: text;
-    text-align: justify;
-    cursor: pointer; }
-
+    text-align: justify; }
+    @media (min-width: 768px) {
+      #section-3 #text {
+        height: 500px; } }
+    @media (min-width: 992px) {
+      #section-3 #text {
+        height: 900px; } }
 /* =============
     Section 4
 ============= */
@@ -563,8 +561,9 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     height: 84px;
-    padding-top: 10px;
-    padding-bottom: 5px; }
+    padding-top: 30px;
+    padding-bottom: 5px;
+    cursor: pointer; }
   #section-4 #picture {
     grid-area: picture;
     background-image: url("../img/section-4/picture5.png");
@@ -573,7 +572,12 @@ footer {
     height: 158px;
     padding-top: 70px;
     padding-bottom: 5px; }
-
+    @media (min-width: 768px) {
+      #section-4 #picture {
+        height: 383px; } }
+    @media (min-width: 992px) {
+      #section-4 #picture {
+        height: 500px; } }
 /* =============
     Section 5
 ============= */
@@ -682,4 +686,6 @@ footer {
 #section-9 {
   padding-top: 50px;
   height: 15px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  align-items: center;
+  justify-content: center; }
