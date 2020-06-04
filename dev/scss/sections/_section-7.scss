@@ -4,25 +4,31 @@
 
 #section-7{
 
-    background-color: $white;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: auto 50% auto;
-    grid-template-areas: ". video .";
-    padding-top: 10px;
+    h1 {
+        text-align: center;
+        color: $pink;
+    }
 
-    >div{
-        grid-area:  video;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // border: 1px solid red;
-
-        section{
-            width: 150%;
-        }
+    #section-7-video {
+        display: grid;
+        grid-template-columns: auto;
+        grid-area: ". section-7 .";
+        background-color: $white;
+        margin-bottom: 50px;
+        padding: 20px;
         
     }
+
+    @include md {
+        padding: 25px;
+    }
+    @include lg {
+        padding: 25px;
+    }
+
+    
+        
+    
        
 }
 

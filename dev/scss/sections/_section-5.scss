@@ -11,6 +11,7 @@
     >div{
         grid-area: gallery;
         text-align: center;
+        color: $blue;
 
         ul{
             
@@ -71,6 +72,13 @@
                 height: 53px;
             }
         }
+        @include md {
+            height: 665px;
+        }
+        @include lg {
+            height: 866px;
+        }
+    
     }
     // ul{
     //     grid-area: gallery;
