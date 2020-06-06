@@ -7,7 +7,18 @@
     display: grid;
     grid-template-columns: 10% auto 10%;
     grid-template-areas: ". gallery .";
-    padding-top: 10px;
+    padding: 30px;
+    padding-right: 50px;
+    @include md {
+        grid-template-columns: 20px auto 20px;
+        padding-left: 70px;
+    }
+
+    @include lg {
+        grid-template-columns: 20px auto 20px;
+        padding-left: 180px;
+    }
+    
     >div{
         grid-area: gallery;
         text-align: center;
@@ -21,8 +32,17 @@
             grid-template-areas: "bigpicture bigpicture bigpicture bigpicture"
              "bigpicture bigpicture bigpicture bigpicture"
             "bigpicture bigpicture bigpicture bigpicture"
-            
             "gallery1 gallery2 gallery3 gallery4";
+
+            @include md {
+                grid-template-columns: repeat(4,178px);
+                grid-template-rows: repeat(4, 127px);
+            }
+            @include lg {
+                grid-template-columns: repeat(4,235px);
+                grid-template-rows: repeat(4, 167px);
+            }
+        
     
             gap: 20px;
     
@@ -34,6 +54,23 @@
                 background-size: cover;
                 height: 210px;
                 color: white;
+                font-size: 35px;
+                
+                @include md {
+                    height: 426px;
+                    font-size: 75px;
+
+    
+                
+                }
+                @include lg {
+                    height: 501px;
+                    font-size: 89px;
+
+
+    
+                
+                }
             }
     
             #gallery1{
@@ -43,6 +80,17 @@
                 background-position: center;
                 background-size: cover;
                 height: 53px;
+
+                @include md {
+                    height: 127px;
+    
+                
+                }
+                @include lg {
+                    height: 167px;
+    
+                
+                }
             }
     
             #gallery2{
@@ -52,6 +100,18 @@
                 background-position: center;
                 background-size: cover;
                 height: 53px;
+
+                @include md {
+                    height: 127px;
+    
+                
+                }
+
+                @include lg {
+                    height: 167px;
+    
+                
+                }
             }
     
             #gallery3{
@@ -61,6 +121,17 @@
                 background-position: center;
                 background-size: cover;
                 height: 53px;
+                @include md {
+                    height: 127px;
+    
+                
+                }
+
+                @include lg {
+                    height: 167px;
+    
+                
+                }
             }
     
             #gallery4{
@@ -70,6 +141,18 @@
                 background-position: center;
                 background-size: cover;
                 height: 53px;
+
+                @include md {
+                    height: 127px;
+    
+                
+                }
+
+                @include lg {
+                    height: 167px;
+    
+                
+                }
             }
         }
         @include md {
@@ -78,6 +161,7 @@
         @include lg {
             height: 866px;
         }
+        
     
     }
     // ul{
