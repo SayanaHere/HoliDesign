@@ -4,39 +4,111 @@
 
 
 #section-3{
-    background-image: url('../img/section-3/picture3.svg');
-       background-size: cover;
-       background-position: center;
-       height: 160px;
+      //background-image: url('../img/section-3/picture3.png');
+       //background-size: 100%;
+       //background-position: center;
+       //background-repeat: no-repeat;
        color: $blue;
-       padding-top: 30px;
-       padding-bottom: 60px;       
        display: grid; 
-       margin-bottom: 130px;
        grid-template-columns: 15% auto 15%;
        grid-template-areas: ". text .";
+       position: relative;
+
+       //background-image: url('../img/section-3/picturee3.png');
+       //background-size: 100%;
+       //background-position: center;
+       //background-repeat: no-repeat;
+
 
        @include md {
-        grid-template-columns: 120px auto 130px;
-        height: 200px;
+        grid-template-columns: 120px auto 120px;
+        background-size: cover;
+        padding-bottom: 50px;
         }
 
        @include lg {
         grid-template-columns: 200px auto 200px;
-        height: 470px;
+
         }
+
+        #red{
+
+            position: absolute;
+            top: 200px;
+            left:0;
+            width: 24%;
+
+            @include md {
+            position: absolute;
+            top: 370px;
+            left:0;
+            width: 25%;
+             }
+        
+            @include lg {
+            position: absolute;
+            top: 300px;
+            left:0; 
+            width: 24%;
+        
+            }
+            
+        }
+
+        #purple{
+            position: absolute;
+            top: 40px;
+            right:0;
+            width: 40%;
+
+            @include md {
+                position: absolute;
+                top: 5px;
+                right:0;
+                width: 40%;
+            }
+            
+                @include lg {
+                position: absolute;
+                top: 5px;
+                right:0;
+                width: 40%;
+        
+                }
+            
+        }
+
+
+
        #text{
            grid-area: text;
            text-align: justify;
 
            @include md {
             margin-top: 20px;
+            padding-bottom: 5px;
+            //margin-bottom: 50px;
         
-        }
+            }
         @include lg {
             margin-top: 40px;
             font-size: 27px;
         
+        }
+
+        p{
+
+            padding: 0 6%;
+            font-size: 15px;
+
+            @include md{
+                padding: 0 10%;
+                font-size: 25px;
+            }
+            @include lg{
+                padding: 0 6%;
+                font-size: 30px;
+            }
         }
 
        }

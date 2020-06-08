@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="451px" height="63px" viewBox="0 0 451 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="401px" height="57px" viewBox="0 0 401 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
     <title>Group 10</title>
     <desc>Created with Sketch.</desc>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="subscription" transform="translate(-135.000000, -158.000000)">
+        <g id="subscription" transform="translate(-189.000000, -163.000000)">
             <g id="Group-11" transform="translate(55.000000, 18.000000)">
-                <g id="Group-10" transform="translate(80.000000, 140.000000)">
-                    <rect id="Rectangle-Copy-4" stroke="#B91270" stroke-width="3" fill-opacity="0.71" fill="#FFFFFF" x="1.5" y="1.5" width="319" height="60" rx="14"></rect>
-                    <rect id="Rectangle-Copy-5" fill="#C94280" x="279" y="0" width="172" height="63" rx="14"></rect>
-                    <text id="SUBSCRIBE" font-family="BodoniSvtyTwoITCTT-Bold, Bodoni 72" font-size="25" font-weight="bold" line-spacing="63" letter-spacing="1.744565" fill="#FFFFFF">
-                        <tspan x="294.499458" y="23">SUBSCRIBE</tspan>
+                <g id="Group-10" transform="translate(134.000000, 145.000000)">
+                    <rect id="Rectangle-Copy-4" stroke="#B91270" stroke-width="3" fill-opacity="0.71" fill="#FFFFFF" x="1.5" y="1.5" width="283" height="53" rx="14"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#C94280" x="248" y="0" width="153" height="56" rx="14"></rect>
+                    <text id="SUBSCRIBE" font-family="BodoniSvtyTwoITCTT-Bold, Bodoni 72" font-size="21" font-weight="bold" line-spacing="63" letter-spacing="1.46543455" fill="#FFFFFF">
+                        <tspan x="261.359545" y="37">SUBSCRIBE</tspan>
                     </text>
                 </g>
             </g>

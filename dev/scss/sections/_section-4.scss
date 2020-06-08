@@ -8,6 +8,10 @@
     grid-template-rows: 180px auto ;
     grid-template-areas: "button" 
     "picture";
+
+    @include md{
+        //grid-template-rows: 100px auto;
+    }
     
 
 
@@ -16,9 +20,13 @@
         background-image: url('../img/section-4/picture4.svg');
         background-repeat: no-repeat;
         background-position: center;
-        height: 90px;
+        height: 50px;
         cursor: pointer;
-        padding: 90px; 
+        padding-top: 70px; 
+
+        @include md{
+            padding-top: 60px;
+        }
 
         
 
@@ -31,14 +39,15 @@
         background-size: cover;
         background-position: center;
         height: 90px;
-        padding-top: 70px;
-        padding-bottom: 5px;
+        padding-bottom: 40px;
 
         @include md {
             height: 250px;
         }
         @include lg {
-            height: 400px;
+            height: 410px;
+            padding-bottom: 90px;
+
         }
     }
     
