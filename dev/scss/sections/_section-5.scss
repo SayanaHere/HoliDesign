@@ -8,18 +8,24 @@
     grid-template-columns: 10% auto 10%;
     grid-template-areas: ". gallery .";
     padding: 30px;
-    padding-right: 50px;
+    padding-left: 1px;
+    width: 20%;
     @include md {
-        grid-template-columns: 20px auto 20px;
-        padding-left: 70px;
+        grid-template-columns: 0px auto 0px;
+        padding-left: 5px;
     }
 
     @include lg {
-        grid-template-columns: 20px auto 20px;
-        padding-left: 180px;
+        grid-template-columns: 0px auto 0px;
+        padding-left: 10px;
+    }
+    @include xl {
+        grid-template-columns: 0px auto 0px;
+        padding-left: 200px;
     }
     
     >div{
+
         grid-area: gallery;
         text-align: center;
         color: $purple;

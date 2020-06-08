@@ -5,35 +5,47 @@
 #section-4{
 
     display: grid;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 180px auto ;
     grid-template-areas: "button" 
     "picture";
+    
+
+
     #button{
         grid-area: button;
         background-image: url('../img/section-4/picture4.svg');
         background-repeat: no-repeat;
         background-position: center;
-        height: 84px;
+        height: 90px;
         cursor: pointer;
-        padding-top: 50px;
+        padding: 90px; 
+
+        
 
 
     }
+
     #picture{
         grid-area: picture;
         background-image: url('../img/section-4/picture5.png');
         background-size: cover;
         background-position: center;
-        height: 158px;
-        padding-top: 50px;
+        height: 90px;
+        padding-top: 70px;
         padding-bottom: 5px;
+
         @include md {
-            height: 383px;
+            height: 250px;
         }
         @include lg {
-            height: 500px;
+            height: 400px;
         }
-
-
     }
+    
+
+    
+
 }
+    
+    
+    

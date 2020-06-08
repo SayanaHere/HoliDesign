@@ -7,17 +7,18 @@
     background-image: url('../img/section-3/picture3.svg');
        background-size: cover;
        background-position: center;
-       height: 169px;
+       height: 160px;
        color: $blue;
        padding-top: 30px;
-       padding-bottom: 160px;       
+       padding-bottom: 60px;       
        display: grid; 
+       margin-bottom: 130px;
        grid-template-columns: 15% auto 15%;
        grid-template-areas: ". text .";
 
        @include md {
-        grid-template-columns: 130px auto 130px;
-        height: 190px;
+        grid-template-columns: 120px auto 130px;
+        height: 200px;
         }
 
        @include lg {
@@ -27,6 +28,7 @@
        #text{
            grid-area: text;
            text-align: justify;
+
            @include md {
             margin-top: 20px;
         
@@ -37,17 +39,6 @@
         
         }
 
-           
-        
-
        }
-       
-    //    #button{
-    //     background-image: url('../img/section-3/picture4.svg');
-    //     background-size: cover;
-    //     background-position: center;
-    //     height: 84px;
-    //    }
-
 }
 
