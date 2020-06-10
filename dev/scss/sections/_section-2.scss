@@ -2,16 +2,18 @@
     Section 2
 ============= */
 
-#section-2{
+#section-2 {
     background-image: url('../img/section-2/picture2.svg');
-       background-size: cover;
-       background-position: center;
-       height: 100px; 
-       color: white;
-       padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    color: white;
+    padding-top: 80px;
+
     @include md {
         height: 250px;
     }
+
     @include lg {
         height: 390px;
     }

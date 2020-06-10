@@ -2,34 +2,23 @@
     Section 6
 ============= */
 
-#section-6{
-
-
+#section-6 {
 
     background-image: url('../img/section-6/picture8.svg');
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       height: 170px;
-       padding-bottom: 100px;
-       padding-top: 90px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 170px;
+    padding-bottom: 100px;
+    padding-top: 90px;
 
-       
-       @include md {
+
+    @include md {
         height: 501px;
-       }
-        @include lg {
+    }
+
+    @include lg {
         height: 800px;
     }
 
-    
-    
-
-
-
-       
-      
-       
-       
 }
-

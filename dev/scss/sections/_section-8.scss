@@ -1,4 +1,3 @@
-
 /* =============
     Section 8
 ============= */
@@ -25,82 +24,83 @@
             display: grid;
             grid-template-columns: auto;
             grid-template-areas: ". section-8 .";
-    
+
             ul {
                 grid-area: section-8;
                 display: grid;
                 margin: 0px;
-    
-    
+
+
                 // @include md {
                 //     grid-template-columns: 1fr;
                 // }
-    
+
             }
-    
+
             li {
                 img {
                     width: 90%;
                     padding-left: 20px;
                     padding-right: 20px;
 
-                    
+
                     @include md {
                         display: grid;
-                        height: 301px;                    
+                        height: 301px;
                     }
-            
+
                     @include lg {
                         grid-area: section-8-lock;
                         display: grid;
-                        height: 310px;                    
+                        height: 310px;
                     }
                 }
             }
         }
-    
-        h1{
+
+        h1 {
             text-align: center;
             color: $pink;
             margin-top: 30px;
-            
+
         }
-        
-        h3{
+
+        h3 {
             text-align: center;
             color: $blue;
             font-size: 30px;
+
             @include md {
-                margin-top: 160px; 
-                margin-left: 15px;  
-                margin-right: 25px;  
+                margin-top: 160px;
+                margin-left: 15px;
+                margin-right: 25px;
 
                 font-size: 35px;
-                  
+
             }
-    
+
             @include lg {
                 margin-top: 140px;
                 font-size: 45px;
 
-                    
+
             }
 
         }
-    
+
         #section-8-container {
             display: grid;
             grid-template-columns: 10px auto 10px;
             grid-template-areas: ". section-8 .";
-    
-    
+
+
             #section-8-content {
                 grid-area: section-8;
             }
-    
+
         }
 
     }
 
-    
+
 }

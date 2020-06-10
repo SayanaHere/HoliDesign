@@ -2,39 +2,44 @@
     Base
 ============= */
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-    li{
-            list-style: none;
+
+    li {
+        list-style: none;
     }
 }
 
-.show-for-medium{
+.show-for-medium {
     display: none;
-    @include md{
+
+    @include md {
         display: block;
     }
 }
 
-.show-for-large{
+.show-for-large {
     display: none;
-    @include lg{
+
+    @include lg {
         display: block;
     }
 }
 
-.content-margin{
+.content-margin {
     padding: 0;
     margin: 0;
 }
 
-.content-spacing{
+.content-spacing {
     margin-top: 34px;
-    @include md{
+
+    @include md {
         margin-top: 51px;
     }
-    @include lg{
+
+    @include lg {
         margin: 51px 0;
     }
 }
