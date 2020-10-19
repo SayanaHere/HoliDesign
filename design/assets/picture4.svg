@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="205px" height="55px" viewBox="0 0 205 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EC679D" offset="0%"></stop>
+            <stop stop-color="#7880DD" stop-opacity="0.96" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-53.000000, -708.000000)">
+            <g id="Group-4" transform="translate(53.000000, 708.000000)">
+                <rect id="Rectangle-Copy-2" stroke="#979797" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="204" height="54" rx="27"></rect>
+                <text id="Buy-Tickets" font-family="BodoniSvtyTwoITCTT-Bold, Bodoni 72" font-size="30" font-weight="bold" letter-spacing="1.440001" fill="#FFFFFF">
+                    <tspan x="27" y="35">Buy Tickets</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
